@@ -8,7 +8,7 @@ export const botConfig = {
   // - "online"    = green dot
   // - "idle"      = yellow moon
   // - "dnd"       = red do-not-disturb
-  // - "invisible" = appears offline
+  // - "offline" = appears offline
   presence: {
     // Current online state shown on Discord.
     status: "online",
@@ -23,8 +23,8 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
+        name: "SLRP Community", // required by Discord API, not shown in the client
+        state: "Watching you",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
